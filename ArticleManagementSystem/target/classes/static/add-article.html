@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Article</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--SERIALIZE JSON-->
+    <script src="assets/js/jquery.serializejson.js"></script>
+    
+    <!--JQUERY SESSIONS-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery.session@1.0.0/jquery.session.js"></script>
+    
+    <!--Personal Script-->
+    <script src="assets/js/add-script.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <form class="form-group">
+        <legend>Add Article</legend>
+        <div class="form-group">
+            <label for="title"></label>
+            <input type="text"
+               class="form-control" name="title" id="title" aria-describedby="helpId" placeholder="Enter Title:">
+        </div><br>
+        <div class="form-group">
+            <label for="text"></label>
+            <textarea class="form-control" name="text" id="text" aria-describedby="helpId" placeholder="Enter Text:"></textarea>
+        </div><br>
+        <div class="form-group">
+            <button type="submit" class="btn btn-default btn-primary" id="submit" name="submit">Add Article</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
